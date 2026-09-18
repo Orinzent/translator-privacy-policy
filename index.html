@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Banzazo Language Translator application published by mecorven.">
+  <meta name="author" content="mecorven">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy — Banzazo Language Translator">
+  <meta property="og:description" content="Official Privacy Policy for Banzazo Language Translator app by mecorven.">
+  
+  <title>Privacy Policy — Banzazo Language Translator</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #07110A;
+      --bg-card: #0F2215;
+      --bg-card-hover: #142C1C;
+      --border-color: rgba(18, 226, 89, 0.15);
+      --primary: #12E259;
+      --primary-glow: rgba(18, 226, 89, 0.25);
+      --text-main: #F0FAF1;
+      --text-muted: #9BB3A1;
+      --text-dim: #6A8270;
+      --white: #FFFFFF;
+      --accent-badge: #1A3A23;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Ambient Background Glow */
+    .bg-glow {
+      position: fixed;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(18, 226, 89, 0.08) 0%, rgba(7, 17, 10, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header Styling */
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .app-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--accent-badge);
+      border: 1px solid var(--border-color);
+      padding: 8px 20px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+
+    .app-brand .dot {
+      width: 10px;
+      height: 10px;
+      background-color: var(--primary);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .app-brand span {
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: var(--primary);
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+      color: var(--white);
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+    }
+
+    .meta-info {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 20px;
+      font-size: 14px;
+      color: var(--text-dim);
+    }
+
+    .meta-info strong {
+      color: var(--text-muted);
+    }
+
+    /* Card Containers */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 36px;
+      margin-bottom: 28px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(18, 226, 89, 0.3);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    h2 .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      background: rgba(18, 226, 89, 0.1);
+      color: var(--primary);
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-bottom: 16px;
+    }
+
+    li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 12px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    /* Highlight Box */
+    .highlight-box {
+      background: rgba(18, 226, 89, 0.05);
+      border-left: 4px solid var(--primary);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      color: var(--text-main);
+      font-weight: 500;
+      margin: 0;
+    }
+
+    /* Contact Box */
+    .contact-box {
+      text-align: center;
+      background: linear-gradient(135deg, #0F2215 0%, #15321F 100%);
+      border: 1px solid rgba(18, 226, 89, 0.3);
+      padding: 40px;
+      border-radius: 24px;
+    }
+
+    .contact-box h2 {
+      justify-content: center;
+    }
+
+    .contact-email {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 28px;
+      background-color: var(--primary);
+      color: #040B06;
+      font-weight: 700;
+      font-size: 16px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .contact-email:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px var(--primary-glow);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 40px 16px 60px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .card {
+        padding: 24px;
+      }
+
+      .meta-info {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-glow"></div>
+
+  <div class="container">
+    
+    <!-- Header -->
+    <header>
+      <div class="app-brand">
+        <div class="dot"></div>
+        <span>BANZAZO TRANSLATOR</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Complete transparency regarding your data, device permissions, and security.</p>
+      
+      <div class="meta-info">
+        <div>Developer: <strong>mecorven</strong></div>
+        <div>App Name: <strong>Banzazo</strong></div>
+        <div>Effective Date: <strong>September 18, 2026</strong></div>
+      </div>
+    </header>
+
+    <!-- Section 1: Overview -->
+    <div class="card">
+      <h2><span class="icon">1</span> Overview & Privacy Commitment</h2>
+      <p>Welcome to <strong>Banzazo</strong>, an advanced on-device Language Translator application developed by <strong>mecorven</strong>. We respect your privacy and are fully committed to protecting your personal data.</p>
+      <div class="highlight-box">
+        <p>🔒 <strong>Zero Data Collection Policy:</strong> Banzazo is built around on-device Machine Learning. We do NOT collect, store, transmit, or sell any of your personal information, translations, voice recordings, or camera images to external servers.</p>
+      </div>
+    </div>
+
+    <!-- Section 2: Permissions -->
+    <div class="card">
+      <h2><span class="icon">2</span> Device Permissions & Usage</h2>
+      <p>To provide real-time translation features, Banzazo requests explicit permissions on your Android device. Here is exactly how each permission is handled:</p>
+      <ul>
+        <li><strong>Camera Permission (<code>CAMERA</code>):</strong> Used exclusively to enable live OCR (Optical Character Recognition) text detection and camera scan translation. Camera frames are processed transiently in real time on your device using Google ML Kit. No photos or video streams are ever uploaded or saved.</li>
+        <li><strong>Microphone Permission (<code>RECORD_AUDIO</code>):</strong> Used solely for real-time speech recognition during Voice Translation and Conversation Mode. Audio input is processed locally on your device. Audio recordings are never uploaded or stored remotely.</li>
+        <li><strong>Vibration (<code>VIBRATE</code>) & Audio Settings:</strong> Used to provide haptic feedback and configure volume during Text-to-Speech (TTS) playback.</li>
+        <li><strong>Internet Access (<code>INTERNET</code>):</strong> Used solely to download language packs for offline translation when requested by the user.</li>
+      </ul>
+    </div>
+
+    <!-- Section 3: Data Storage & Security -->
+    <div class="card">
+      <h2><span class="icon">3</span> Data Storage & Security</h2>
+      <p>All app operational data remains 100% stored on your local device:</p>
+      <ul>
+        <li><strong>Translation History:</strong> Saved locally on your device via secure preference storage. You can delete individual history items or perform a full wipe at any time from the App Settings.</li>
+        <li><strong>Language Preferences:</strong> Your selected source/target languages and voice speed settings are stored locally.</li>
+        <li><strong>No Analytics Tracking:</strong> We do not embed third-party tracking SDKs, advertising IDs, or telemetry software into Banzazo.</li>
+      </ul>
+    </div>
+
+    <!-- Section 4: Third-Party Libraries -->
+    <div class="card">
+      <h2><span class="icon">4</span> Third-Party Libraries & Services</h2>
+      <p>Banzazo utilizes official Google Android libraries to perform machine learning operations locally on your hardware:</p>
+      <ul>
+        <li><strong>Google ML Kit On-Device Translation:</strong> Powers offline translation using pre-downloaded language models.</li>
+        <li><strong>Google ML Kit Text Recognition:</strong> Powers on-device text detection from camera feeds.</li>
+        <li><strong>Android Speech & TTS Engines:</strong> Powers native device speech-to-text and text-to-speech rendering.</li>
+      </ul>
+      <p>These services operate under Google's standard privacy policies and developer agreements.</p>
+    </div>
+
+    <!-- Section 5: Children's Privacy -->
+    <div class="card">
+      <h2><span class="icon">5</span> Children's Privacy (COPPA & Play Policy)</h2>
+      <p>Banzazo is designed for general audiences and does not target or knowingly collect any personal information from children under the age of 13. Since no personal data is collected from any user, Banzazo complies fully with COPPA and Google Play Family policies.</p>
+    </div>
+
+    <!-- Section 6: Data Deletion Rights -->
+    <div class="card">
+      <h2><span class="icon">6</span> Your Data Rights & Deletion</h2>
+      <p>Because all data resides exclusively on your personal device, you have complete control over your data at all times:</p>
+      <ul>
+        <li><strong>Clear App History:</strong> Navigate to <code>Settings -> Clear History</code> inside Banzazo to permanently erase all saved translations instantly.</li>
+        <li><strong>App Uninstallation:</strong> Uninstalling the application immediately removes all associated local data and configuration files from your device.</li>
+      </ul>
+    </div>
+
+    <!-- Section 7: Contact -->
+    <div class="contact-box">
+      <h2>Contact Developer</h2>
+      <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or Banzazo, please contact the developer directly:</p>
+      <a href="mailto:support@mecorven.com" class="contact-email">Contact mecorven</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 mecorven. All rights reserved. Banzazo Language Translator.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
